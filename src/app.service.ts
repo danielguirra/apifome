@@ -1,15 +1,21 @@
 import { Injectable } from '@nestjs/common';
 import * as fs from 'fs'
-let teste
 
-fs.readFile('./src/util/teste.json','utf-8',(err,data)=>{
-  if(err)throw err;
+let food = []
+
+
+const foodFiles = fs.readdirSync('./src/food')
+
+
+fs.readFile(`./src/food/food.json`, 'utf-8', (err, data) => {
+  if (err) throw err;
   console.log(data)
-  teste = data
+  food.push(JSON.parse(data))
 })
+
 @Injectable()
 export class AppService {
-  getComida(): string {
-    return teste;
+  getComida(name = 'batata'): string {
+    return food[0][name];
   }
 }

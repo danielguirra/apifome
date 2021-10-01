@@ -1,0 +1,10 @@
+{
+    "milho": {
+        "cultivo": "O plantio de milho é feito tanto na chamada 'safrinha' quanto na safra principal (ou seja, a safra de verão). Na Região Sudeste do Brasil, o mês de plantio mais indicado geralmente é setembro, mas o plantio pode ser feito até em novembro. Dependendo do mês de plantio, o espaçamento entre as linhas e a quantidade de sementes por metro deve variar. O ciclo do plantio varia entre 115 e 135 dias.",
+        "cuidados": "O importante é garantir uma massa de palha que cubra o solo da forma mais eficiente possível.Essa palha deve ter relação C/N (carbono/nitrogênio) alta para que sua degradação seja mais lenta, cobrindo o solo o maior tempo possível ou pelo menos até o fechamento das linhas da cultura da próxima safra.A dessecação da vegetação de cobertura deve ser feita de forma planejada e com antecedência ao plantio. A dose e o tempo de dessecação variam entre 10 a 20 dias conforme a cultura. "
+    },
+    "batata": {
+        "cultivo": "Os tipos de solos mais adequados para o plantio de batata são aqueles que oferecem pouca resistência ao desenvolvimento do tubérculo e que são ricos em matéria orgânica, com boa drenagem e aeração. Os solos com pH entre 5,2 e 6,4 são considerados ideais. O preparo do terreno para o plantio é bastante trabalhoso, pois o terreno precisa estar completamente livre de ervas daninhas. Por isso, o solo precisa ser arado várias vezes para atingir as condições ideais do plantio: macio, bem drenado e bem aerado.",
+        "cuidados": "Durante o estabelecimento da planta, que demora cerca de quatro semanas, as ervas daninhas devem ser controladas para dar vantagem ao desenvolvimento do tubérculo. Quando as plantas estão com mais de quinze centímetros de altura, é feito um processo de amontoamento de terra sobre os pés da planta, para prevenir a disseminação de pragas, além de manter a qualidade do solo. Depois desse processo, as ervas daninhas são removidas mecanicamente ou com o uso de herbicidas."
+    }
+}
