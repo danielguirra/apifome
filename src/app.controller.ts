@@ -1,5 +1,5 @@
-import { Controller, Get } from '@nestjs/common';
-import { query } from 'express';
+import { Controller, Get, Param, Query } from '@nestjs/common';
+
 import { AppService } from './app.service';
 
 
@@ -8,8 +8,10 @@ export class AppController {
   constructor(private readonly appService: AppService) { }
 
 
-  @Get('/comida' + query)
-  getComida(): string {
-    return this.appService.getComida(query.toString());
+  @Get('/comida/:id')
+    getComida(@Param('id')id): any[]{
+      return this.appService.getComida(id);
+    }
   }
-}
+ 
+
